@@ -39,7 +39,7 @@ class Config:
     def check(self):
         missing = [
             var
-            for var in ["35660683", "7afb42cd73fb5f3501062ffa6a1f87f7", "BOT_TOKEN", "MONGO_URL", "LOGGER_ID", "OWNER_ID", "SESSION1"]
+            for var in ["35660683", "7afb42cd73fb5f3501062ffa6a1f87f7", "8504453753:AAH_JebMW-CpuVfnUu3UZux993zw34w8KQM", "mongodb+srv://teamdaxx123:teamdaxx123@cluster0.ysbpgcp.mongodb.net/?retryWrites=true&w=majority", "-1003150808065", "7818323042", "BQIgI4sAhMD3C-NBtQfLmB6OC1-aQZ-0Y_7zeuTND3plGmS_xVkOC0V7DCkhh6r1KjXfS9Ps8UB3kVaDLFcwFx1PDCOKbwMPpMuyMVeP2nYTUnOFObB-RbrILJAfTfdpLnTwBt0FgXzkGiN0f4RqLOXllQcCgmFSgvY_LZ5Blq2TrOmnp43UiVe57mRZziLenWiksYLuv5QLpTkwYRUCqOtRMg3Gh0t_4ub7uTRoD9mZVEZcrK9Vc-TS7BXtKacqNsAUb9eEKNBCoT5JaLAe9cgqqUs9VFVDYk_gtIIFRhHIwwskWNLAs4FQwwqFeEqiLbYl2DpJHO4WvYKCZp4AXnXmcSUx5gAAAAHSAiRiAA"]
             if not getattr(self, var)
         ]
         if missing:
