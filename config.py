@@ -39,7 +39,7 @@ class Config:
     def check(self):
         missing = [
             var
-            for var in ["API_ID", "API_HASH", "BOT_TOKEN", "MONGO_URL", "LOGGER_ID", "OWNER_ID", "SESSION1"]
+            for var in ["35660683", "7afb42cd73fb5f3501062ffa6a1f87f7", "BOT_TOKEN", "MONGO_URL", "LOGGER_ID", "OWNER_ID", "SESSION1"]
             if not getattr(self, var)
         ]
         if missing:
