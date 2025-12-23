@@ -5,20 +5,20 @@ load_dotenv()
 
 class Config:
     def __init__(self):
-        self.API_ID = int(getenv("API_ID", 0))
-        self.API_HASH = getenv("API_HASH")
+        self.API_ID = int(getenv("35660683", 0))
+        self.API_HASH = getenv("7afb42cd73fb5f3501062ffa6a1f87f7")
 
-        self.BOT_TOKEN = getenv("BOT_TOKEN")
-        self.MONGO_URL = getenv("MONGO_URL")
+        self.BOT_TOKEN = getenv("8504453753:AAH_JebMW-CpuVfnUu3UZux993zw34w8KQM")
+        self.MONGO_URL = getenv("mongodb+srv://teamdaxx123:teamdaxx123@cluster0.ysbpgcp.mongodb.net/?retryWrites=true&w=majority")
 
-        self.LOGGER_ID = int(getenv("LOGGER_ID", 0))
-        self.OWNER_ID = int(getenv("OWNER_ID", 0))
+        self.LOGGER_ID = int(getenv("-1003150808065", 0))
+        self.OWNER_ID = int(getenv("7818323042", 0))
 
         self.DURATION_LIMIT = int(getenv("DURATION_LIMIT", 60)) * 60
         self.QUEUE_LIMIT = int(getenv("QUEUE_LIMIT", 20))
         self.PLAYLIST_LIMIT = int(getenv("PLAYLIST_LIMIT", 20))
 
-        self.SESSION1 = getenv("SESSION", None)
+        self.SESSION1 = getenv("BQIgI4sAhMD3C-NBtQfLmB6OC1-aQZ-0Y_7zeuTND3plGmS_xVkOC0V7DCkhh6r1KjXfS9Ps8UB3kVaDLFcwFx1PDCOKbwMPpMuyMVeP2nYTUnOFObB-RbrILJAfTfdpLnTwBt0FgXzkGiN0f4RqLOXllQcCgmFSgvY_LZ5Blq2TrOmnp43UiVe57mRZziLenWiksYLuv5QLpTkwYRUCqOtRMg3Gh0t_4ub7uTRoD9mZVEZcrK9Vc-TS7BXtKacqNsAUb9eEKNBCoT5JaLAe9cgqqUs9VFVDYk_gtIIFRhHIwwskWNLAs4FQwwqFeEqiLbYl2DpJHO4WvYKCZp4AXnXmcSUx5gAAAAHSAiRiAA", None)
         self.SESSION2 = getenv("SESSION2", None)
         self.SESSION3 = getenv("SESSION3", None)
 
